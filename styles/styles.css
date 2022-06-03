@@ -1,0 +1,300 @@
+
+.backgroundimg{
+    background-image: url("../img/splash2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; 
+    height: 875px; 
+    position: relative;  
+    
+    justify-content: center;
+    align-content: centere;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbuffer {
+    padding-bottom: 100px;
+    
+}
+
+
+.col-md-intro {
+  
+    text-align: center;
+}
+
+.intro {
+    color: white;
+    
+   
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+    max-height:100%;
+    margin-bottom: 10px;
+    
+}
+
+.btn-secondary.btn-lg {
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #e80a0a !important;
+    border: black !important;
+}
+
+.btn.btn-danger {
+    background-color: #e80a0a !important;
+
+}
+
+
+
+.btn.btn-secondary.btn-lg:hover {
+   
+    background-color: #c20e0e !important;
+}
+
+
+
+
+
+.navbar>.container-fluid {
+    background-color: #28242c !important;
+}
+
+.bg-dark {
+    background-color: #28242c !important; 
+
+}
+
+.poster {
+    max-height:100% !important; 
+    max-width:100% !important;
+}
+
+
+
+.maincontainer {
+    background-image: linear-gradient(#28242c, black);
+    min-height: 850px;
+    padding-bottom: 50px;
+    color: grey;
+    
+    
+}
+
+
+
+.splash1 {
+   opacity: 0.7;
+   max-width: 100%;
+   max-height: 100%;
+   position: relative;
+   display: block; /* remove extra space below image */
+   transition: .55s ease-in-out;
+   
+}
+
+.splash1:hover {
+    opacity: 1;
+    transition: .55s ease-in-out;
+}
+
+.para {
+    color: white;
+}
+
+.bingesparklogo {
+    width: 250x;
+    height: 50px;
+}
+
+.posterimg {
+    
+    width: 200px;
+    height: 300px;
+    
+    transition: .55s ease-in-out;
+
+   margin-bottom: 20px;
+
+  
+    
+}
+
+.posterimg:hover {
+   
+    transform: scale(1.1,1.1);
+  
+    
+   
+    
+}
+
+.genreheading {
+  
+    color: #808080;
+    font-size: 0.7cm;
+        
+}
+
+
+
+
+
+.genre.container{
+    margin-bottom: 50px;
+   
+}
+
+.genreimg {
+    width: 200px;
+}
+
+.col-lg-4.movieposter {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+   
+}
+
+.moviepageimg {
+    max-width: 270px;
+    max-height: 400px;
+    
+ 
+}
+
+.movieinfo {
+    color: grey;
+}
+
+
+.col-auto.alphabet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn.btn-danger.alphabet {
+    height: 50px;
+    width: 50px;
+    background-color: #e80a0a !important;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: space-around
+    
+    
+}
+.btn.btn-danger.alphabet:hover {
+background-color: #c20e0e !important;
+}
+
+.row.signupform {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+   
+}
+
+.btn.dropdown-toggle {
+    color: grey;
+}
+
+.dropdown-item:active {
+    background-color: #808080 !important; 
+    }
+
+.col-lg-4 {
+    
+    padding: 10px;
+ 
+}
+
+.col-sm-6  {
+    padding: 10px;
+}
+
+.col-lg-3 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.link {
+    color: #808080;
+    transition: .2s ease-in-out;
+}
+
+
+.link:hover {
+    color: #bbbbbb;
+    transition: .2s ease-in-out;
+}
+
+.genrepageheader {
+    color: #bbbbbb;
+}
+
+.error {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .posterimg {
+        width: 300px;
+        height: 450px;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .form-control.name {
+     
+        margin-bottom: 20px;
+    }
+}
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
